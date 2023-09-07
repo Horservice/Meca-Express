@@ -1,0 +1,103 @@
+  
+.teste{
+    background-color: #BEBFC5;
+    animation: pictureopacity 1s;
+  
+  }
+  
+  .cardpicture{
+    background-color: #8E8E91;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform .2s; 
+    animation: pictureopacity 1s;
+  
+  }
+  @keyframes pictureopacity {
+  from {
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1;
+  }
+  
+  }
+  
+  
+  .cardpicture:hover{
+    background-color: #8E8E91;
+    transform: scale(103%); 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+
+
+  
+.pagination .page-link {
+  color: black;
+  background-color: #ecec31;
+  border: none;
+}
+
+.lipage {
+  background-color: #ecec31;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  color: black;
+}
+
+.lipage:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transform: translateY(-5px);
+  background-color: #ecec31;
+  outline: #ecec3194 solid 10px;
+  color: black;
+}
+
+.lipage:active {
+  background-color: #ecec31;
+  outline: #ecec3194 solid 10px;
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transform: translateY(4px);
+}
+
+.lipage:focus {
+  background-color: #ecec31;
+  outline: #ecec3194 solid 10px;
+}
+
+/* limite max*/
+.page-item.disabled .page-link {
+  background-color: #f8f9fa; 
+  color: #6c757d; 
+  cursor: not-allowed;
+  transform: none;
+  outline: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+  
+  
+
+
+  h1,p{
+  
+  animation: h1t 1s;
+  
+  
+  }
+  
+  @keyframes h1t {
+  
+    0%{transform: translateY(100%);opacity: 0;}
+  
+  
+  
+  
+    100%{transform: translateX(0%);    opacity: 1;}
+  
+  }
+  img {
+    height: 100%;
+    width: 100%;
+  }

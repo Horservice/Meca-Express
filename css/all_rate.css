@@ -1,0 +1,55 @@
+
+.bggrey{
+    background-color: #BEBFC5;
+    animation: pictureopacity 1s;
+
+}
+
+@keyframes pictureopacity {
+    from {
+    opacity: 0;
+    }
+
+    to {
+    opacity: 1;
+    }
+
+}
+
+.bgwhite{
+    animation: pictureopacity 1s;
+
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.abc{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer{
+    margin-top: 15rem;
+}
+
+.teste{
+    animation: pictureopacity 1s;
+
+}
+
+h1,h2{
+
+    animation: h1t 1s;
+
+
+}
+
+@keyframes h1t {
+
+  0%{transform: translateY(100%);opacity: 0;}
+
+
+
+
+  100%{transform: translateX(0%);    opacity: 1;}
+
+}
+

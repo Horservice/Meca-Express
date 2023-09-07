@@ -1,0 +1,138 @@
+h1{
+
+    animation: h1t 1s;
+  
+  
+  }
+  
+  @keyframes h1t {
+  
+      0%{transform: translateY(100%);opacity: 0;}
+  
+  
+  
+  
+      100%{transform: translateX(0%);opacity: 1;}
+  
+  }
+  
+  
+  .pictureopacity{
+  
+  animation: pictureopacity 1s;
+  
+  
+  }
+  
+  @keyframes pictureopacity {
+  from {
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1;
+  }
+  
+  }
+  
+  .title{
+  
+  animation: h5t 1s;
+  
+  
+  }
+  
+  @keyframes h5t {
+  from {
+    transform: translateX(25%);
+    opacity: 0;
+  }
+  
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  
+  
+  }
+  
+  
+  .text{
+  
+  animation: pt 1.5s;
+  
+  
+  }
+  
+  @keyframes pt {
+  from {
+    transform: translateX(5%);
+    opacity: 0;
+  }
+  
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  
+  }
+  
+  .hrl{
+  
+  animation: hr 1.5s;
+  
+  
+  }
+  
+  @keyframes hr {
+  from {
+    transform: translateX(5%);
+    opacity: 0;
+  
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  
+  }
+  
+  }
+  
+  .backshadow{
+  
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: #8E8E91;
+  
+  }
+  .bg{
+  
+    background-color: #BEBFC5;
+  
+  
+    animation: h1tt 2s;
+  
+  }
+  
+  @keyframes h1tt {
+  
+    from {
+    opacity: 0;
+  
+    to {
+    opacity: 1;
+    }
+  
+  }
+  
+  
+  }
+
+
+  .hw{
+
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  

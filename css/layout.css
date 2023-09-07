@@ -1,0 +1,113 @@
+/*Police*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+
+
+h1,h2,h3,h4,h5,tr{
+	font-family: 'Cabin', sans-serif;
+}
+
+
+p,li,a,.btYellow,td{
+	font-family: 'Poppins', sans-serif;
+}
+
+/*/Police*/
+
+/*Scrollbar*/
+
+::-webkit-scrollbar {
+  width: 14px; 
+  background-color: #bebfc5;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: yellow; 
+  border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 0, 0.568); 
+  border-radius: 10px; 
+}
+
+
+/*/Scrollbar*/
+
+
+
+
+body{
+	background-color: #D9D9D9;
+}
+
+
+
+
+/* Nav*/
+.mynav{
+	background-color: #BEBFC5;
+	animation: navanim 0.9s ;
+}
+
+@keyframes navanim {
+	from {
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+
+	to {
+		transform: translateX(0%);
+		opacity: 1;
+	}
+
+}
+
+
+/*/Nav*/
+
+
+
+/* Footer*/
+
+
+footer{
+  background-color: #BEBFC5;
+}
+
+.footer-item {
+  margin-bottom: 20px;
+}
+.open {
+  background-color: #ecec31;
+  border-radius: 8px;
+  padding: 14px 10px;
+  width: 125px; 
+  display: inline-block;
+}
+.footer-item ul.list-unstyled li a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/* /Footer*/
+
+.facebook-circle {
+  background-color: white;
+  width: 45px;
+  height: 43px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.facebook {
+  font-size: 297%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
+
+  
